@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+}
+
+.button {
+    color: black;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #277ff3;
+}
+.button:active {
+    background-color: #8a0678;
+    transform: scale(1.08);
+  }
